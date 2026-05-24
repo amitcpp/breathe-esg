@@ -82,6 +82,7 @@ export const api = {
 
   ingestionHistory: () => request('/api/ingestion/history/'),
   ingestionDetail: (id) => request(`/api/ingestion/history/${id}/`),
+  deleteIngestion: (id) => request(`/api/ingestion/history/${id}/`, { method: 'DELETE' }).catch(() => null),
 
   // Emissions
   getRecords: (params = {}) => {

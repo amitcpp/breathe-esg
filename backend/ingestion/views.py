@@ -83,8 +83,8 @@ class IngestionHistoryView(generics.ListAPIView):
         return qs
 
 
-class IngestionDetailView(generics.RetrieveAPIView):
-    """Get details of a specific ingestion."""
+class IngestionDetailView(generics.RetrieveDestroyAPIView):
+    """Get or delete a specific ingestion (cascades to all related records)."""
     serializer_class = DataIngestionSerializer
     permission_classes = [IsAuthenticated]
     lookup_field = 'id'
@@ -94,3 +94,15 @@ class IngestionDetailView(generics.RetrieveAPIView):
         if self.request.user.tenant:
             qs = qs.filter(tenant=self.request.user.tenant)
         return qs
+
+    def destroy(self, request, *args, **kwargs):
+        ingestion = self.get_object()
+        # Cascade: delete emission records, audit logs, raw records, then ingestion
+        from emissions.models import EmissionRecord
+        from review.models import AuditLog
+        records = EmissionRecord.objects.filter(ingestion=ingestion)
+        AuditLog.objects.filter(emission_record__in=records).delete()
+        records.delete()
+        ingestion.raw_records.all().delete()
+        ingestion.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)

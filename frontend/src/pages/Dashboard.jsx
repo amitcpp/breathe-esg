@@ -5,12 +5,21 @@ export default function Dashboard() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
 
-  useEffect(() => {
+  const fetchData = () => {
+    setLoading(true)
     api.dashboardSummary()
       .then(setData)
       .catch(console.error)
       .finally(() => setLoading(false))
-  }, [])
+  }
+
+  useEffect(() => { fetchData() }, [])
+
+  const handleDelete = async (id) => {
+    if (!confirm('Delete this upload and all its records?')) return
+    await api.deleteIngestion(id)
+    fetchData()
+  }
 
   if (loading) return <div className="loading-overlay"><span className="loading-spinner" /> Loading dashboard...</div>
   if (!data) return <div className="empty-state"><div className="icon">📊</div><h3>No data yet</h3><p>Upload some data to get started</p></div>
@@ -131,6 +140,7 @@ export default function Dashboard() {
                 <span className={`badge badge-${ing.status === 'completed' ? 'approved' : ing.status === 'failed' ? 'rejected' : 'pending'}`}>
                   {ing.status}
                 </span>
+                <button className="btn btn-danger btn-sm" onClick={() => handleDelete(ing.id)} title="Delete upload">🗑</button>
               </div>
             ))}
           </div>
