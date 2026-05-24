@@ -1,0 +1,602 @@
+[
+  {
+    "model": "reference.airportlookup",
+    "pk": "LHR",
+    "fields": {
+      "iata_code": "LHR",
+      "name": "London Heathrow Airport",
+      "city": "London",
+      "country": "GB",
+      "latitude": "51.4700",
+      "longitude": "-0.4543"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "JFK",
+    "fields": {
+      "iata_code": "JFK",
+      "name": "John F. Kennedy International Airport",
+      "city": "New York",
+      "country": "US",
+      "latitude": "40.6413",
+      "longitude": "-73.7781"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "SIN",
+    "fields": {
+      "iata_code": "SIN",
+      "name": "Singapore Changi Airport",
+      "city": "Singapore",
+      "country": "SG",
+      "latitude": "1.3502",
+      "longitude": "103.9944"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "FRA",
+    "fields": {
+      "iata_code": "FRA",
+      "name": "Frankfurt am Main Airport",
+      "city": "Frankfurt",
+      "country": "DE",
+      "latitude": "50.0379",
+      "longitude": "8.5622"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "BOM",
+    "fields": {
+      "iata_code": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj International Airport",
+      "city": "Mumbai",
+      "country": "IN",
+      "latitude": "19.0896",
+      "longitude": "72.8656"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "BER",
+    "fields": {
+      "iata_code": "BER",
+      "name": "Berlin Brandenburg Airport",
+      "city": "Berlin",
+      "country": "DE",
+      "latitude": "52.3667",
+      "longitude": "13.5033"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "SFO",
+    "fields": {
+      "iata_code": "SFO",
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "country": "US",
+      "latitude": "37.6213",
+      "longitude": "-122.3790"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DXB",
+    "fields": {
+      "iata_code": "DXB",
+      "name": "Dubai International Airport",
+      "city": "Dubai",
+      "country": "AE",
+      "latitude": "25.2532",
+      "longitude": "55.3657"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "CDG",
+    "fields": {
+      "iata_code": "CDG",
+      "name": "Charles de Gaulle Airport",
+      "city": "Paris",
+      "country": "FR",
+      "latitude": "49.0097",
+      "longitude": "2.5479"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "AMS",
+    "fields": {
+      "iata_code": "AMS",
+      "name": "Amsterdam Airport Schiphol",
+      "city": "Amsterdam",
+      "country": "NL",
+      "latitude": "52.3105",
+      "longitude": "4.7683"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "NRT",
+    "fields": {
+      "iata_code": "NRT",
+      "name": "Narita International Airport",
+      "city": "Tokyo",
+      "country": "JP",
+      "latitude": "35.7720",
+      "longitude": "140.3929"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "LAX",
+    "fields": {
+      "iata_code": "LAX",
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "country": "US",
+      "latitude": "33.9425",
+      "longitude": "-118.4081"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "ORD",
+    "fields": {
+      "iata_code": "ORD",
+      "name": "O'Hare International Airport",
+      "city": "Chicago",
+      "country": "US",
+      "latitude": "41.9742",
+      "longitude": "-87.9073"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "ATL",
+    "fields": {
+      "iata_code": "ATL",
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "country": "US",
+      "latitude": "33.6407",
+      "longitude": "-84.4277"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "PEK",
+    "fields": {
+      "iata_code": "PEK",
+      "name": "Beijing Capital International Airport",
+      "city": "Beijing",
+      "country": "CN",
+      "latitude": "40.0799",
+      "longitude": "116.6031"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "HND",
+    "fields": {
+      "iata_code": "HND",
+      "name": "Tokyo Haneda Airport",
+      "city": "Tokyo",
+      "country": "JP",
+      "latitude": "35.5494",
+      "longitude": "139.7798"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "HKG",
+    "fields": {
+      "iata_code": "HKG",
+      "name": "Hong Kong International Airport",
+      "city": "Hong Kong",
+      "country": "HK",
+      "latitude": "22.3080",
+      "longitude": "113.9185"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "ICN",
+    "fields": {
+      "iata_code": "ICN",
+      "name": "Incheon International Airport",
+      "city": "Seoul",
+      "country": "KR",
+      "latitude": "37.4602",
+      "longitude": "126.4407"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DEL",
+    "fields": {
+      "iata_code": "DEL",
+      "name": "Indira Gandhi International Airport",
+      "city": "New Delhi",
+      "country": "IN",
+      "latitude": "28.5562",
+      "longitude": "77.1000"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "BKK",
+    "fields": {
+      "iata_code": "BKK",
+      "name": "Suvarnabhumi Airport",
+      "city": "Bangkok",
+      "country": "TH",
+      "latitude": "13.6900",
+      "longitude": "100.7501"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "SYD",
+    "fields": {
+      "iata_code": "SYD",
+      "name": "Sydney Kingsford Smith Airport",
+      "city": "Sydney",
+      "country": "AU",
+      "latitude": "-33.9461",
+      "longitude": "151.1772"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "MUC",
+    "fields": {
+      "iata_code": "MUC",
+      "name": "Munich Airport",
+      "city": "Munich",
+      "country": "DE",
+      "latitude": "48.3537",
+      "longitude": "11.7750"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "MAD",
+    "fields": {
+      "iata_code": "MAD",
+      "name": "Adolfo Suárez Madrid–Barajas Airport",
+      "city": "Madrid",
+      "country": "ES",
+      "latitude": "40.4983",
+      "longitude": "-3.5676"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "FCO",
+    "fields": {
+      "iata_code": "FCO",
+      "name": "Leonardo da Vinci–Fiumicino Airport",
+      "city": "Rome",
+      "country": "IT",
+      "latitude": "41.8003",
+      "longitude": "12.2389"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "ZRH",
+    "fields": {
+      "iata_code": "ZRH",
+      "name": "Zurich Airport",
+      "city": "Zurich",
+      "country": "CH",
+      "latitude": "47.4647",
+      "longitude": "8.5492"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "IST",
+    "fields": {
+      "iata_code": "IST",
+      "name": "Istanbul Airport",
+      "city": "Istanbul",
+      "country": "TR",
+      "latitude": "41.2753",
+      "longitude": "28.7519"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DFW",
+    "fields": {
+      "iata_code": "DFW",
+      "name": "Dallas/Fort Worth International Airport",
+      "city": "Dallas",
+      "country": "US",
+      "latitude": "32.8998",
+      "longitude": "-97.0403"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DEN",
+    "fields": {
+      "iata_code": "DEN",
+      "name": "Denver International Airport",
+      "city": "Denver",
+      "country": "US",
+      "latitude": "39.8561",
+      "longitude": "-104.6737"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "MIA",
+    "fields": {
+      "iata_code": "MIA",
+      "name": "Miami International Airport",
+      "city": "Miami",
+      "country": "US",
+      "latitude": "25.7959",
+      "longitude": "-80.2870"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "SEA",
+    "fields": {
+      "iata_code": "SEA",
+      "name": "Seattle-Tacoma International Airport",
+      "city": "Seattle",
+      "country": "US",
+      "latitude": "47.4502",
+      "longitude": "-122.3088"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "BOS",
+    "fields": {
+      "iata_code": "BOS",
+      "name": "Boston Logan International Airport",
+      "city": "Boston",
+      "country": "US",
+      "latitude": "42.3656",
+      "longitude": "-71.0096"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "EWR",
+    "fields": {
+      "iata_code": "EWR",
+      "name": "Newark Liberty International Airport",
+      "city": "Newark",
+      "country": "US",
+      "latitude": "40.6895",
+      "longitude": "-74.1745"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "GRU",
+    "fields": {
+      "iata_code": "GRU",
+      "name": "São Paulo/Guarulhos International Airport",
+      "city": "São Paulo",
+      "country": "BR",
+      "latitude": "-23.4356",
+      "longitude": "-46.4731"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "MEX",
+    "fields": {
+      "iata_code": "MEX",
+      "name": "Mexico City International Airport",
+      "city": "Mexico City",
+      "country": "MX",
+      "latitude": "19.4363",
+      "longitude": "-99.0721"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "YYZ",
+    "fields": {
+      "iata_code": "YYZ",
+      "name": "Toronto Pearson International Airport",
+      "city": "Toronto",
+      "country": "CA",
+      "latitude": "43.6777",
+      "longitude": "-79.6248"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "LGW",
+    "fields": {
+      "iata_code": "LGW",
+      "name": "London Gatwick Airport",
+      "city": "London",
+      "country": "GB",
+      "latitude": "51.1537",
+      "longitude": "-0.1821"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DUS",
+    "fields": {
+      "iata_code": "DUS",
+      "name": "Düsseldorf Airport",
+      "city": "Düsseldorf",
+      "country": "DE",
+      "latitude": "51.2895",
+      "longitude": "6.7668"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "CPH",
+    "fields": {
+      "iata_code": "CPH",
+      "name": "Copenhagen Airport",
+      "city": "Copenhagen",
+      "country": "DK",
+      "latitude": "55.6180",
+      "longitude": "12.6560"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "VIE",
+    "fields": {
+      "iata_code": "VIE",
+      "name": "Vienna International Airport",
+      "city": "Vienna",
+      "country": "AT",
+      "latitude": "48.1103",
+      "longitude": "16.5697"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DOH",
+    "fields": {
+      "iata_code": "DOH",
+      "name": "Hamad International Airport",
+      "city": "Doha",
+      "country": "QA",
+      "latitude": "25.2731",
+      "longitude": "51.6081"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "KUL",
+    "fields": {
+      "iata_code": "KUL",
+      "name": "Kuala Lumpur International Airport",
+      "city": "Kuala Lumpur",
+      "country": "MY",
+      "latitude": "2.7456",
+      "longitude": "101.7099"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "JNB",
+    "fields": {
+      "iata_code": "JNB",
+      "name": "O. R. Tambo International Airport",
+      "city": "Johannesburg",
+      "country": "ZA",
+      "latitude": "-26.1392",
+      "longitude": "28.2460"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "BLR",
+    "fields": {
+      "iata_code": "BLR",
+      "name": "Kempegowda International Airport",
+      "city": "Bangalore",
+      "country": "IN",
+      "latitude": "13.1986",
+      "longitude": "77.7066"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "PVG",
+    "fields": {
+      "iata_code": "PVG",
+      "name": "Shanghai Pudong International Airport",
+      "city": "Shanghai",
+      "country": "CN",
+      "latitude": "31.1443",
+      "longitude": "121.8083"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "ARN",
+    "fields": {
+      "iata_code": "ARN",
+      "name": "Stockholm Arlanda Airport",
+      "city": "Stockholm",
+      "country": "SE",
+      "latitude": "59.6519",
+      "longitude": "17.9186"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "OSL",
+    "fields": {
+      "iata_code": "OSL",
+      "name": "Oslo Gardermoen Airport",
+      "city": "Oslo",
+      "country": "NO",
+      "latitude": "60.1976",
+      "longitude": "11.1004"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "HEL",
+    "fields": {
+      "iata_code": "HEL",
+      "name": "Helsinki-Vantaa Airport",
+      "city": "Helsinki",
+      "country": "FI",
+      "latitude": "60.3172",
+      "longitude": "24.9633"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "DUB",
+    "fields": {
+      "iata_code": "DUB",
+      "name": "Dublin Airport",
+      "city": "Dublin",
+      "country": "IE",
+      "latitude": "53.4264",
+      "longitude": "-6.2499"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "AUH",
+    "fields": {
+      "iata_code": "AUH",
+      "name": "Abu Dhabi International Airport",
+      "city": "Abu Dhabi",
+      "country": "AE",
+      "latitude": "24.4330",
+      "longitude": "54.6511"
+    }
+  },
+  {
+    "model": "reference.airportlookup",
+    "pk": "MAN",
+    "fields": {
+      "iata_code": "MAN",
+      "name": "Manchester Airport",
+      "city": "Manchester",
+      "country": "GB",
+      "latitude": "53.3537",
+      "longitude": "-2.2750"
+    }
+  }
+]

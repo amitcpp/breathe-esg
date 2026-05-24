@@ -1,0 +1,134 @@
+[
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 1,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "1100",
+      "facility_name": "Werk Stuttgart-Süd (Manufacturing Plant South)",
+      "country": "DE",
+      "region": "Europe"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 2,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "1200",
+      "facility_name": "Verwaltungszentrum München (Administration Center Munich)",
+      "country": "DE",
+      "region": "Europe"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 3,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "1300",
+      "facility_name": "Logistikzentrum Hamburg (Logistics Center Hamburg)",
+      "country": "DE",
+      "region": "Europe"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 4,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "2100",
+      "facility_name": "Austin Manufacturing Facility",
+      "country": "US",
+      "region": "North America"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 5,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "2200",
+      "facility_name": "Detroit Assembly Plant",
+      "country": "US",
+      "region": "North America"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 6,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "3100",
+      "facility_name": "Pune Production Facility",
+      "country": "IN",
+      "region": "Asia Pacific"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 7,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "3200",
+      "facility_name": "Chennai R&D Center",
+      "country": "IN",
+      "region": "Asia Pacific"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 8,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "4100",
+      "facility_name": "Manchester Distribution Hub",
+      "country": "GB",
+      "region": "Europe"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 9,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "4200",
+      "facility_name": "London Head Office",
+      "country": "GB",
+      "region": "Europe"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 10,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "5100",
+      "facility_name": "Shanghai Assembly Plant",
+      "country": "CN",
+      "region": "Asia Pacific"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 11,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "6100",
+      "facility_name": "São Paulo Warehouse",
+      "country": "BR",
+      "region": "Latin America"
+    }
+  },
+  {
+    "model": "reference.plantcodelookup",
+    "pk": 12,
+    "fields": {
+      "tenant": "00000000-0000-0000-0000-000000000001",
+      "plant_code": "7100",
+      "facility_name": "Dubai Regional Office",
+      "country": "AE",
+      "region": "Middle East"
+    }
+  }
+]

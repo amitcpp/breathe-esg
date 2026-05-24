@@ -1,0 +1,26 @@
+Report ID,Employee ID,Employee Name,Expense Type,Transaction Date,Origin,Destination,Cabin Class,Route Type,Nights,Vehicle Type,Distance (km),Amount,Currency,Hotel Location
+RPT-2024-0042,EMP-101,Priya Sharma,Airfare,2024-03-15,DEL,LHR,Economy,Round Trip,,,,,85000,INR,
+RPT-2024-0042,EMP-101,Priya Sharma,Hotel,2024-03-16,,,,,5,,,,42000,INR,London GB
+RPT-2024-0042,EMP-101,Priya Sharma,Car Rental,2024-03-16,,,,,,Medium Diesel,180,12000,INR,
+RPT-2024-0043,EMP-102,Raj Patel,Airfare,2024-04-01,BOM,SIN,Business,One Way,,,,,125000,INR,
+RPT-2024-0043,EMP-102,Raj Patel,Hotel,2024-04-01,,,,,3,,,,28000,INR,Singapore SG
+RPT-2024-0044,EMP-103,Anika Desai,Airfare,2024-04-10,DEL,BLR,Economy,Round Trip,,,,,15000,INR,
+RPT-2024-0044,EMP-103,Anika Desai,Taxi,2024-04-10,,,,,,Taxi,45,1200,INR,
+RPT-2024-0044,EMP-103,Anika Desai,Hotel,2024-04-10,,,,,2,,,,8500,INR,Bangalore IN
+RPT-2024-0045,EMP-104,Vikram Singh,Airfare,2024-04-22,DEL,JFK,Business,Round Trip,,,,,350000,INR,
+RPT-2024-0045,EMP-104,Vikram Singh,Hotel,2024-04-22,,,,,7,,,,185000,INR,New York US
+RPT-2024-0045,EMP-104,Vikram Singh,Car Rental,2024-04-23,,,,,,Large Diesel,520,45000,INR,
+RPT-2024-0046,EMP-105,Meera Joshi,Airfare,2024-05-05,BOM,DXB,Economy,One Way,,,,,32000,INR,
+RPT-2024-0046,EMP-105,Meera Joshi,Hotel,2024-05-05,,,,,4,,,,65000,INR,Dubai AE
+RPT-2024-0047,EMP-101,Priya Sharma,Airfare,2024-05-15,DEL,FRA,Premium Economy,Round Trip,,,,,145000,INR,
+RPT-2024-0047,EMP-101,Priya Sharma,Hotel,2024-05-16,,,,,3,,,,35000,INR,Frankfurt DE
+RPT-2024-0048,EMP-106,Arjun Reddy,Airfare,2024-05-20,HYD,MAA,Economy,One Way,,,,,8500,INR,
+RPT-2024-0048,EMP-106,Arjun Reddy,Taxi,2024-05-20,,,,,,Taxi,32,850,INR,
+RPT-2024-0049,EMP-107,Sneha Nair,Airfare,2024-06-01,BLR,NRT,Economy,Round Trip,,,,,95000,INR,
+RPT-2024-0049,EMP-107,Sneha Nair,Hotel,2024-06-01,,,,,5,,,,72000,INR,Tokyo JP
+RPT-2024-0050,EMP-102,Raj Patel,Airfare,2024-06-10,BOM,SFO,First,One Way,,,,,480000,INR,
+RPT-2024-0050,EMP-102,Raj Patel,Hotel,2024-06-10,,,,,4,,,,120000,INR,San Francisco US
+RPT-2024-0050,EMP-102,Raj Patel,Car Rental,2024-06-11,,,,,,Small Petrol,290,18000,INR,
+RPT-2024-0051,EMP-108,Karan Mehta,Airfare,2024-06-15,DEL,CCU,Economy,Round Trip,,,,,12000,INR,
+RPT-2024-0051,EMP-108,Karan Mehta,Taxi,2024-06-15,,,,,,Taxi,25,700,INR,
+RPT-2024-0052,EMP-103,Anika Desai,Airfare,2024-06-20,DEL,CDG,Business,Round Trip,,,,,280000,INR,

@@ -1,0 +1,362 @@
+[
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Fuels",
+      "activity_type": "Liquid fuels",
+      "sub_type": "Diesel (average biofuel blend)",
+      "unit": "litres",
+      "co2e_per_unit": "2.51000",
+      "co2_per_unit": "2.47220",
+      "ch4_per_unit": "0.00018",
+      "n2o_per_unit": "0.01762",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Fuels",
+      "activity_type": "Liquid fuels",
+      "sub_type": "Petrol (average biofuel blend)",
+      "unit": "litres",
+      "co2e_per_unit": "2.31000",
+      "co2_per_unit": "2.27180",
+      "ch4_per_unit": "0.00092",
+      "n2o_per_unit": "0.01728",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Fuels",
+      "activity_type": "Gaseous fuels",
+      "sub_type": "Natural gas",
+      "unit": "kWh",
+      "co2e_per_unit": "0.18316",
+      "co2_per_unit": "0.18300",
+      "ch4_per_unit": "0.00004",
+      "n2o_per_unit": "0.00012",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f80",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Fuels",
+      "activity_type": "Liquid fuels",
+      "sub_type": "LPG",
+      "unit": "litres",
+      "co2e_per_unit": "1.53970",
+      "co2_per_unit": "1.51790",
+      "ch4_per_unit": "0.00062",
+      "n2o_per_unit": "0.02118",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8091",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Fuels",
+      "activity_type": "Liquid fuels",
+      "sub_type": "Heavy Fuel Oil (HFO)",
+      "unit": "litres",
+      "co2e_per_unit": "3.17490",
+      "co2_per_unit": "3.13820",
+      "ch4_per_unit": "0.00108",
+      "n2o_per_unit": "0.03562",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f809102",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Electricity",
+      "activity_type": "Grid electricity",
+      "sub_type": "Generation and T&D",
+      "unit": "kWh",
+      "co2e_per_unit": "0.20700",
+      "co2_per_unit": "0.20490",
+      "ch4_per_unit": "0.00040",
+      "n2o_per_unit": "0.00170",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": "GB"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "07a8b9c0-d1e2-4f3a-4b5c-6d7e8f901213",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Electricity",
+      "activity_type": "Grid electricity",
+      "sub_type": "Generation and T&D",
+      "unit": "kWh",
+      "co2e_per_unit": "0.38400",
+      "co2_per_unit": "0.37900",
+      "ch4_per_unit": "0.00100",
+      "n2o_per_unit": "0.00400",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": "US"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "18b9c0d1-e2f3-4a4b-5c6d-7e8f90121324",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Electricity",
+      "activity_type": "Grid electricity",
+      "sub_type": "Generation and T&D",
+      "unit": "kWh",
+      "co2e_per_unit": "0.71000",
+      "co2_per_unit": "0.70100",
+      "ch4_per_unit": "0.00200",
+      "n2o_per_unit": "0.00700",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": "IN"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "29c0d1e2-f3a4-4b5c-6d7e-8f9012132435",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Electricity",
+      "activity_type": "Grid electricity",
+      "sub_type": "Generation and T&D",
+      "unit": "kWh",
+      "co2e_per_unit": "0.38000",
+      "co2_per_unit": "0.37500",
+      "ch4_per_unit": "0.00100",
+      "n2o_per_unit": "0.00400",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": "DE"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "3ad1e2f3-a4b5-4c6d-7e8f-901213243546",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Air travel",
+      "sub_type": "Short-haul, economy class (with RF)",
+      "unit": "passenger-km",
+      "co2e_per_unit": "0.18287",
+      "co2_per_unit": "0.09530",
+      "ch4_per_unit": "0.00001",
+      "n2o_per_unit": "0.00029",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "4be2f3a4-b5c6-4d7e-8f90-121324354657",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Air travel",
+      "sub_type": "Short-haul, business class (with RF)",
+      "unit": "passenger-km",
+      "co2e_per_unit": "0.27430",
+      "co2_per_unit": "0.14295",
+      "ch4_per_unit": "0.00002",
+      "n2o_per_unit": "0.00043",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "5cf3a4b5-c6d7-4e8f-9012-132435465768",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Air travel",
+      "sub_type": "Long-haul, economy class (with RF)",
+      "unit": "passenger-km",
+      "co2e_per_unit": "0.20011",
+      "co2_per_unit": "0.10426",
+      "ch4_per_unit": "0.00001",
+      "n2o_per_unit": "0.00032",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "6da4b5c6-d7e8-4f90-1213-243546576879",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Air travel",
+      "sub_type": "Long-haul, premium economy class (with RF)",
+      "unit": "passenger-km",
+      "co2e_per_unit": "0.32015",
+      "co2_per_unit": "0.16682",
+      "ch4_per_unit": "0.00002",
+      "n2o_per_unit": "0.00051",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "7eb5c6d7-e8f9-4012-1324-35465768798a",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Air travel",
+      "sub_type": "Long-haul, business class (with RF)",
+      "unit": "passenger-km",
+      "co2e_per_unit": "0.58028",
+      "co2_per_unit": "0.30238",
+      "ch4_per_unit": "0.00004",
+      "n2o_per_unit": "0.00093",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "8fc6d7e8-f901-4213-2435-4657687989ab",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Air travel",
+      "sub_type": "Long-haul, first class (with RF)",
+      "unit": "passenger-km",
+      "co2e_per_unit": "0.80040",
+      "co2_per_unit": "0.41700",
+      "ch4_per_unit": "0.00005",
+      "n2o_per_unit": "0.00128",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "90d7e8f9-0121-4324-3546-5768798a9bbc",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Hotel stay",
+      "sub_type": "Global average",
+      "unit": "room-night",
+      "co2e_per_unit": "21.00000",
+      "co2_per_unit": null,
+      "ch4_per_unit": null,
+      "n2o_per_unit": null,
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "a1e8f901-2132-4435-4657-68798a9bbccd",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Land transport",
+      "sub_type": "Car (small) - petrol",
+      "unit": "km",
+      "co2e_per_unit": "0.14965",
+      "co2_per_unit": "0.14730",
+      "ch4_per_unit": "0.00051",
+      "n2o_per_unit": "0.00184",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "b2f90121-3243-4546-5768-798a9bbccdde",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Land transport",
+      "sub_type": "Car (medium) - diesel",
+      "unit": "km",
+      "co2e_per_unit": "0.16884",
+      "co2_per_unit": "0.16620",
+      "ch4_per_unit": "0.00008",
+      "n2o_per_unit": "0.00256",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "c3012132-4354-4657-6879-8a9bbccddee0",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Land transport",
+      "sub_type": "Car (large) - diesel",
+      "unit": "km",
+      "co2e_per_unit": "0.20975",
+      "co2_per_unit": "0.20650",
+      "ch4_per_unit": "0.00010",
+      "n2o_per_unit": "0.00315",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "d4121324-3546-4768-798a-9bbccddee0f1",
+    "fields": {
+      "source_db": "DEFRA",
+      "category": "Business travel",
+      "activity_type": "Land transport",
+      "sub_type": "Taxi (regular)",
+      "unit": "km",
+      "co2e_per_unit": "0.14880",
+      "co2_per_unit": "0.14660",
+      "ch4_per_unit": "0.00007",
+      "n2o_per_unit": "0.00213",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-12-31",
+      "region": null
+    }
+  }
+]
